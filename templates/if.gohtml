@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Title}}</title>
+</head>
+<body>
+{{if .Name }}
+    {{if eq .Name "Ferdi"}}
+        <h1>Hi Moch {{.Name}}</h1>
+    {{else}}
+        <h1>Hello {{.Name}}</h1>
+    {{end}}
+{{else}}
+    <h1>Hay</h1>
+{{end}}
+</body>
+</html>
